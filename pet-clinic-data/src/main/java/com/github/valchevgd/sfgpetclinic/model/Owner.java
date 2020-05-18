@@ -11,7 +11,7 @@ public class Owner extends Person {
     @Column(name = "address")
     private String address;
 
-    @Column("city")
+    @Column(name = "city")
     private String city;
 
     @Column(name = "telephone")
